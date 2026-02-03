@@ -15,4 +15,4 @@ COPY . .
 ENV PORT=8080
 
 # Command to run the app using the $PORT environment variable
-CMD ["sh", "-c", "uvicorn bridge:app --host 0.0.0.0 --port $PORT"]
+CMD ["sh", "-c", "uvicorn server:app --host 0.0.0.0 --port $PORT"]
