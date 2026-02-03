@@ -1,0 +1,5 @@
+python -m uvicorn server:app --reload
+
+ngrok http 8000 
+
+https://d7f2d2b1cd42.ngrok-free.app
